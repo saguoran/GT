@@ -1,4 +1,5 @@
 {
+  "homepage": "https://saguoran.github.io/gt",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
@@ -6,12 +7,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@inlet/react-pixi": "^6.8.0",
     "@react-spring/parallax": "^9.5.4",
     "bulma": "^0.9.4",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",

@@ -1,7 +1,5 @@
 import React from 'react';
 import 'bulma/css/bulma.min.css';
-
-import { Form, Navbar } from 'react-bulma-components';
 import { useEffect } from 'react';
 import logo from '../assets/game-trucks-logo.png';
 import { AiFillFacebook, AiFillYoutube, AiOutlineTwitter, AiOutlineInstagram, AiFillLinkedin } from 'react-icons/ai'

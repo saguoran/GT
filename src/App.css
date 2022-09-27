@@ -17,6 +17,7 @@
   /* padding-bottom: 2rem; */
   padding: 1rem 1rem;
   font-size: medium;
+  color: #333;
 }
 .center, .center-column, .top, .right, .bottom, .left {
 	display: flex;

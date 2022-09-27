@@ -3,9 +3,6 @@ import 'bulma/css/bulma.min.css';
 import { useEffect } from 'react';
 import logo from '../assets/game-trucks-logo.png';
 import { AiFillFacebook, AiFillYoutube, AiOutlineTwitter, AiOutlineInstagram, AiFillLinkedin } from 'react-icons/ai'
-
-const { Brand, Burger, Menu, Item, Dropdown, Link, Divider, Container } = Navbar;
-const { Input, Field, Control, Label } = Form;
 import './MyNavBar.css'
 const logoSize = '60px';
 export function MyNavBar() {

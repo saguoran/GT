@@ -1,0 +1,6 @@
+
+a:hover svg{
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: yellow;
+  }

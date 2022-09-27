@@ -1,0 +1,9 @@
+
+> vite-project@0.0.0 dev
+> vite
+
+
+  VITE v3.1.2  ready in 312 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose

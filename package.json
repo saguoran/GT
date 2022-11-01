@@ -8,17 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@inlet/react-pixi": "^6.8.0",
-    "@react-spring/parallax": "^9.5.4",
-    "bulma": "^0.9.4",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
-    "react-spring": "^9.5.4"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
